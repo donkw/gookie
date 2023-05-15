@@ -9,7 +9,7 @@ if err != nil {
   fmt.Printf("Error: %s\n", err)
   return
 }
-cookies, err := chrome.GetCookies(".huajiao.com")
+cookies, err := chrome.GetCookies(".baidu.com")
 if err != nil {
   fmt.Printf("Error: %s\n", err)
   return
